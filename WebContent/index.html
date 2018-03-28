@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
+  <title></title>
+  <script type="text/javascript" src="AJAXlib.js">
+  </script>
+  <SCRIPT type="text/javascript" SRC="myJavaScript.js">
+  </SCRIPT>
+  <body>
+  <h2>Length Converter (cm/inch) by Country</h2>
+  <h3>Choose a country and the amount of centimeters you want to see converted to that specific country's unit of length.</h3>
+  <div>
+    <select id ="listOfCountries">
+      <option value="Japan">Japan</option>
+      <option value="Liberia">Liberia</option>
+      <option value="Myanmar">Myanmar</option>
+      <option value="United Kingdom">United Kingdom</option>
+      <option value="United States">United States</option>
+      <option value="Sweden">Sweden</option>
+    </select>
+  </div>
+  <div>
+    <input type="text" id="lValue"></input> centimeters are <input type="text" id="result" value="" disabled size="36"></input>
+    <input type="button" id="button" value="Calculate"  onclick="doQuery();" style="width:100">
+  </div>
+  </body>
+</html>
